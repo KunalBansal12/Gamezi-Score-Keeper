@@ -1,0 +1,123 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*  */
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+	background-image: url(https://wallpaperaccess.com/full/4606962.jpg);
+	background-size: cover;
+	/* background-position: bottom; */
+}
+
+section{
+    width:25%;
+    /* border: 2px solid hsl(0, 9%, 81%); */
+    margin:20px;
+	box-shadow: 0px 0px 2px 2px hsl(0, 9%, 81%);
+	background-color: rgb(237, 237, 237);
+}
+
+img{
+    width: 100%;
+}
+
+#ping{
+    border:2px solid hsl(0, 9%, 81%);
+    width:95%;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+	padding-top:10px;
+}
+
+h1{
+	font-size: 3em;
+	padding:20px 10px 1px;
+	font-weight: bolder;
+}
+
+#text{
+	padding: 10px;
+	padding-top: 5px;
+}
+
+#select{
+	padding: 10px;
+	padding-bottom: 20px;
+}
+
+#playi{
+	font-weight: bolder;
+}
+
+#play{
+	border-radius: 7px;
+	border: 2px solid #535252;
+}
+
+#p1button{
+	width: 33.33%;
+	height: 30px;
+	background-color: rgb(17, 253, 143);
+}
+
+#p2button{
+	width: 33.33%;
+	height: 30px;
+	background-color: #2adbf6;
+}
+
+#reset{
+	height: 30px;
+	width: 33.33%;
+	background-color: #f92819;
+}
+
+button{
+	border-radius: 3px;
+}
